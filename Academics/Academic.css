@@ -1,0 +1,43 @@
+.body h1{
+    color: rgb(40, 72, 131);
+    text-align:center ;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+main{
+    max-width: 1500PX;
+    width: 95%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+main .card{
+    max-width: 700px;
+  /*  flex: 1 1 210px;*/
+    text-align: center;
+    height: 100px;
+    border: 1px  solid rgb(25, 93, 115);
+    margin: 40px;
+    background: linear-gradient(to right, #153854 35%, #2a72cb);
+    color: white;
+    border-radius: 10px;
+}
+main .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}
+main .card .caption{
+    padding-left: 0em;
+    text-align: center;
+    margin-top: 0.5in;
+}
+main .card .caption .A_cal a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}

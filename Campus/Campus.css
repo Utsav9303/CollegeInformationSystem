@@ -1,0 +1,120 @@
+.body {
+    height: auto;
+}
+.body h3 p {
+    color: rgb(185, 132, 34);
+}
+
+.body h2 {
+    color: rgb(185, 132, 34);
+}
+
+.body p {
+    font-size: 17.5px;
+    margin-left: 20px;
+}
+
+.body p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.body ul {
+    font-size: 17.5px;
+    margin-left: 150px;
+    text-decoration: black;
+}
+
+
+.body ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.body2 {
+    padding: 20px 40px 40px;
+    width: 90%;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: rgb(208, 234, 234);
+    height: auto;
+}
+
+.body2 h3 p {
+    color: rgb(185, 132, 34);
+}
+
+.body2 h2 {
+    color: rgb(185, 132, 34);
+}
+
+.body2 p {
+    font-size: 17.5px;
+    margin-left: 20px;
+}
+
+.body2 p a {
+    text-decoration: none;
+    color: blue;
+}
+
+.body2 ul {
+    font-size: 17.5px;
+    margin-left: 150px;
+    text-decoration: black;
+}
+
+
+.body2 ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.xyz {
+    padding: 20px 40px 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: rgba(185, 216, 241, 0.39);
+    max-width: 85%;
+    margin-left: 55px;
+    height: 400px;
+}
+
+.xyz__image {
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    height: 390px;
+    margin: 20px 30px 0 0;
+    border-radius: 20px;
+}
+
+.abc__image {
+    display: flot;
+    vertical-align: top;
+    width: 50%;
+    height: 390px;
+    margin: 20px 30px 0 0;
+    border-radius: 20px;
+    float: right;
+}
+
+.xyz__text {
+    display: inline-block;
+    width: 46%;
+    font-size: 20px;
+}
+
+.abc__text {
+    display: inline-block;
+    width: 46%;
+    font-size: 20px;
+    text-align: left;
+}
+
+@media (max-width: 620px) {
+    .xyz__text {
+        width: 100%;
+    }
+}

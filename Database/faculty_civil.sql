@@ -1,0 +1,58 @@
+-- phpMyAdmin SQL Dump
+-- version 5.2.1
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: May 05, 2023 at 11:21 AM
+-- Server version: 10.4.28-MariaDB
+-- PHP Version: 8.2.4
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `college_proj`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `faculty_civil`
+--
+
+CREATE TABLE `faculty_civil` (
+  `id` varchar(15) DEFAULT NULL,
+  `img` blob DEFAULT NULL,
+  `name` varchar(150) DEFAULT NULL,
+  `role` varchar(150) DEFAULT NULL,
+  `Experience` varchar(50) NOT NULL,
+  `qualification` varchar(100) NOT NULL,
+  `aoi` varchar(1000) NOT NULL,
+  `workexp` varchar(1000) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `faculty_civil`
+--
+
+INSERT INTO `faculty_civil` (`id`, `img`, `name`, `role`, `Experience`, `qualification`, `aoi`, `workexp`) VALUES
+('CI1', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f534852495f445f4b5f504154454c5f284c454354292e6a7067, 'Mr. DineshKumar Patel', 'LECTURER', '32 YEARS', 'B.E.CIVIL', 'ENVIRONMENT ENGG.', 'Lecturer (Civil Engineering)K.D. Polytechnic, Patan'),
+('CI2', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f6874705f50686f746f312e6a7067, 'Mr. HiteshKumar Patel', 'LECTURER', '12 YEARS', 'M.E-CIVIL', 'WATER RESOURCES ENGINEERING', 'WORKED AS A LECTURER FOR 5 YEARS AT B.S.PATEL POLYTECHNIC, KHERVA, GANPAT UNIVERSITY\r\n\r\nPRESENTLY WORKING AS LECTURER IN GOVERNMENT POLYTECHNIC, PALANPUR'),
+('CI3', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f7363616e5f70686f746f342e6a7067, 'Mr. Bhargav Makwana', 'LECTURER', '12 YEARS', 'M TECH IN CONSTRUCTION & PROJECT MANAGEMENT', 'CONSTRUCTION WORKS MANAGEMENT, PUBLIC HEALTH ENGINEERING', 'FIELD EXPERIENCE :\r\n1.SHAPOORAJI PALLONAJI & CO. LTD (PROJECT TRAINEE) (2008)\r\n2.GANNON DUNKERLEY & CO. LTD. (ASST. ENGINEER) (2009)\r\n3.HCP DESIGN & PROJECT MANAGEMENT PVT. LTD. (PROJECT ENGINEER) (2010-2011)\r\n\r\nTEACHING EXPERIENCE :\r\n1. GOVERNMENT POLYTECHNIC, RAJKOT, LECTURER IN CIVIL ENGINEER (2011-2015)\r\n2. GOVERNMENT POLYTECHNIC, AHMEDABAD, LECTURER IN CIVIL ENGINEER (2015-CONTI.)'),
+('CI4', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f46425f494d475f31343934323232333534353838312e6a7067, 'Mr. Jaydipkumar Patel', 'LECTURER', '7 YEARS', '7 YEARS', 'BUILDING DRAWING, BUILDING CONSTRUCTION', 'Lecturer (Civil Engineering Dept.)\r\n\r\n                               Swami Sachchidanand Polytechnic, Visnagar (2008 – 2016)\r\n\r\n                                K.D.Polytechnic, Patan (2016-2018)'),
+('CI5', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f6a6170322e6a7067, 'Mr. Jayant Patel', 'LECTURER', '7 YEARS', 'M.TECH (TRANSPORTATION ENGINEERING AND PLANNING)', 'TRANSPORTATION ENGINEERING', 'Teaching Experience : 10 Years teaching experience in well known private university as a Assist Professor.\r\n\r\n\r\n05 Years teaching experience at Goverment polytechnic as a Lecturer.\r\n\r\n\r\nProfessional experience : More then one year experience as a Junior engineer '),
+('CI6', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f50616e6b69745f5069632e6a7067, 'Mr. Pankitkumar Prajapati', 'LECTURER', '7 YEARS', 'M.E.CIVIL (WATER RESOURCE MANAGEMENT)', 'WRM, WSSE', 'Lecturer (Civil Engineering)\r\n\r\n                                Swami Sachchidanand Polytechnic, Visnagar (2010-2011)\r\n\r\nAssistant Engineer\r\n\r\n                                Gujarat water Supply & Sewerage Board, Gujarat State (2012-2016)'),
+('CI7', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f494d475f32303230303130375f3136313033302e6a7067, 'Mr. Chirag Thakkar', 'LECTURER', '5 YEARS', 'B.TECH IN CIVIL ENGINNERING', 'ENVIRONMENT AND WATER RESOURCE ENGINEERING', 'Lecturer (Civil Engineering)K.D. Polytechnic, Patan'),
+('CI8', 0x687474703a2f2f7777772e6b6470702e63746567756a2e696e2f75706c6f6164732f666163756c74792f57686174734170705f496d6167655f323031382d30372d31335f61745f325f31325f35375f504d312e6a706567, 'Mr. HimalayKumar Panchal', 'LECTURER', '10 YEARS', 'B. E. CIVIL', 'TRANSPORT ENGINEERING, SURVEYING', 'Lecturer (Civil Engineering )\r\n\r\n                                K.D.Polytechnic, Patan (2013 to till Date )');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
